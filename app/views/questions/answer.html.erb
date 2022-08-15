@@ -1,0 +1,12 @@
+<div class = "border-left p-5 m-5">
+  <h4><%= params[:question] %></h4>
+  <h4 class="fw-normal fst-italic">- You</h4>
+</div>
+<div class = "bg-light p-5 m-5 border-left">
+  <h4><%= @answer %></h4>
+  <h4 class="fw-normal fst-italic">- Coach</h4>
+</div>
+
+<div class="m-5">
+<%= link_to "Ask another question", "/ask", class:"text-decoration-none" %>
+</div>
